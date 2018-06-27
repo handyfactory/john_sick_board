@@ -1,0 +1,5 @@
+<h1><%= @post.title %></h1>
+<h1><%= @post.content %></h1>
+
+<a href="/posts/<%= @post.id %>/edit">수정하기</a>
+<a href="/posts/<%= @post.id %>" data-method="delete" data-confirm="지울거야??">삭제하기</a>
